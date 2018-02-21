@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+* {
+    font-family: 'Raleway', sans-serif !important;
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#headerImage {
+    background-image: url(images/headerImage.JPG);
+    
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*changing the hover effect of bootstrap*/
+a:hover {
+    color: inherit !important;
+}
+.nav-item > a:hover {
+    color: inherit !important;
+    text-decoration: line-through !important;
+}
+
+/*Progress Bar */
+#progressBar {
+    height: 6px;
+    position: relative;
+}
+#progressBar > span {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: -20px; 
+    right: 0; 
+    padding: 0 6px;
+}
