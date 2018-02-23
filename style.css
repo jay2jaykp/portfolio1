@@ -12,9 +12,17 @@ div {
 
 #headerImage {
     background-image: url(images/headerImage.JPG);
-    
     height: 100%;
-    
+    opacity: 0.5;
+    background-blend-mode: darken;
+}
+
+#service {
+    background-image: url(images/servce.jpg);
+}
+
+#headerImage, #service {
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
