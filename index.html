@@ -9,22 +9,23 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <script src="javascript.js"></script>
-
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body>
 
+
         <!--Navigation BAR-->
-        <nav class="navbar w3-card-4 fixed-top navbar-expand-lg w3-white">
+        <nav class="navbar fixed-top navbar-expand-lg ">
             <div class="container">
-                <a class="navbar-brand d-flex flex-row" href="#">
-                    <img class="w3-circle mr-2 img-responsive"  src="http://via.placeholder.com/60x60">
-                    <span class=" text-center"><span style="vertical-align:sub">JAY <strong>PATEL</strong> </span><br> <span style="font-size: 12px; vertical-align: text-top"><strong>WEB</strong>DEVELOPER</span></span>
+                <a class="navbar-brand d-flex " href="#">
+                    <img class="w3-circle mr-2 img-responsive"  src="http://via.placeholder.com/70x70">
+                    <span class="py-auto">JAY <strong>PATEL</strong> <br> <span><strong>WEB</strong>DEVELOPER</span></span>
                 </a>
-                <button class="d-block d-lg-none w3-button w3-border w3-border-black ml-auto mr-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"><i class="fa fa-bars "></i></button>
-                <button class="w3-button w3-border w3-border-black d-block d-lg-none"><i class="fa fa-user-plus"></i></button>
-                <div class="collapse navbar-collapse ml-2" id="navbarCollapse">
+                <button class="d-block d-lg-none w3-button w3-hover-none w3-border w3-border-black ml-auto mr-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"><i class="fa fa-bars "></i></button>
+                <!--
+<button class="w3-button w3-border w3-border-black d-block d-lg-none"><i class="fa fa-user-plus"></i></button>
+-->
+                <div class="collapse navbar-collapse pl-2" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mr-4">
                             <a class="nav-link" href="#">HOME</a>
@@ -35,28 +36,32 @@
                         <li class="nav-item mr-4">
                             <a class="nav-link" href="#service">SERVICES</a>
                         </li>
-                        
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="#service">PROJECTS</a>
+                        </li>
                         <li class="nav-item mr-4">
                             <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                         <!--
-                        <li class="mr-4">
-                            <a class="nav-link text-bold d-none d-lg-block" style="border: solid black 2px;" href="#"><strong>HIRE ME</strong></a>
-                        </li>
-                        -->
+<li class="mr-4">
+<a class="nav-link text-bold d-none d-lg-block" style="border: solid black 2px;" href="#"><strong>HIRE ME</strong></a>
+</li>
+-->
                     </ul>
                 </div>
             </div>
         </nav>
 
         <!--header image-->
-        <div id="headerImage" class=>
-            <div class="container" style="position: relative;top: 30%;">
-                <h1><strong>I</strong> CAN <strong>DO</strong></h1>
-                <h1><strong>WEB</strong> DEVELOPMENT</h1>
-                <p style="font-size: 28px">I'm a self-taught part-time web developer <br> based in Toronto currently pursuing <br> masters in Industrial Engineering <br> from University of Toronto</p>
-                <a class="w3-button w3-hover-none" style="border: black solid 2px" > <strong>LET'S TALK</strong></a>
-            </div>
+        <div id="headerImage" class="w3-grayscale">
+            <div id="headerContent" class="container">
+                <div>
+                    <h3><strong>HELLO,</strong>WORLD</h3>
+                    <h3>I'M A <strong>WEB</strong>DEVELOPER</h3>
+                    <p style="font-size: 20px">I'm a self-taught part-time web developer based in Toronto currently pursuing masters in Industrial Engineering from University of Toronto</p>
+                    <a class="w3-button w3-hover-none" style="border: black solid 5px;" > <strong>LET'S TALK</strong></a>
+                </div>
+            </div> 
         </div>
 
         <!--ABOUT ME-->
@@ -66,7 +71,7 @@
                 <div class="row">
 
                     <!--introduction -->
-                    <div class="col-sm">
+                    <div class="col-sm mb-4">
                         <h3>WHO <strong>AM</strong> I?</h3>
                         <p>I am a current master student at University of Toronto. I am pursuing M.Eng in Industrial Engineering. I am planning to get specialization certification of Information Engineering through my course selection.</p>
                         <p>I am a self taught web developer, spending my leisure time in sharpening my coding skills and developing my portfolio. I did my undergraduate in Mechanical Engineering from India.</p>
@@ -74,7 +79,7 @@
                     </div>
 
                     <!--skills-->
-                    <div class="col-sm">
+                    <div class="col-sm mb-4">
                         <h3>EXPERT <strong>IN</strong></h3>
                         <p>Mentioned skills are not exhaustive. New skills can be added depends on project requirements.</p>
                         <div class="mb-3">
@@ -124,7 +129,7 @@
 
             <div class="container my-5">
                 <div class="row">
-                    <div class="col-sm mx-2 p-4 w3-card">
+                    <div class="col-sm m-2 p-4 w3-card">
                         <h3><strong>EDU</strong>CATION</h3>
                         <table width="100%" class="my-2">
                             <col width="30%">
@@ -135,7 +140,7 @@
                             </tr>
                             <tr>
                                 <td style="vertical-align: super"><strong>GTU</strong></td>
-                                <td>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</td>
+                                <td>My undergrad was in mechnical engineering. I learnt the fundamental aspects of </td>
                             </tr> 
                         </table>
                         <table width="100%">
@@ -152,7 +157,7 @@
                         </table>
 
                     </div>
-                    <div class="col-sm mx-2 w3-card">
+                    <div class="col-sm m-2 w3-card">
                         <h3><strong>EX</strong>PERIENCE</h3>
                         <table width="100%" class="my-2">
                             <col width="30%">
@@ -185,15 +190,7 @@
                             </div>                            
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="d-flex flex-row">
-                            <i class="pr-4 fa-5x fab fa-android"></i>
-                            <div>
-                                <h4>ANDROID <strong>DEVELOPMENT</strong></h4>
-                                <p>I do not count as a legitimate experience in Android App Development. But I have learnt it with java. Still need some work to show-up in portfolio.</p>
-                            </div>                            
-                        </div>
-                    </div>
+
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="d-flex flex-row">
                             <i class="pr-4 fa-5x far fa-object-group"></i>
@@ -205,6 +202,27 @@
                     </div>
 
                 </div>
+                <h1 class="text-center py-4"><strong>I CAN TRY</strong></h1>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <i class="pr-4 fa-5x fab fa-wordpress-simple"></i>
+                            <div>
+                                <h4>WORDPRESS <strong>DEVELOPMENT</strong></h4>
+                                <p>Currently, I am working on my wordpress developement skills. However, real-world project is the best way to put my knowledge to action and gain valuable experience.</p>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <i class="pr-4 fa-5x fab fa-android"></i>
+                            <div>
+                                <h4>ANDROID <strong>DEVELOPMENT</strong></h4>
+                                <p>I do not count as a legitimate experience in Android App Development. But I have learnt it with java. Still need some work to show-up in portfolio.</p>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -213,46 +231,58 @@
         <div id="contact">
             <div class="container">
                 <h1 class="text-center py-4"><strong>CONTACT</strong></h1>
-                <div class="card mx-auto" style="width: 400px">
+                <div class="card mx-auto">
                     <div class="card-title text-center"><h4>HOME</h4></div>
                     <div id="myMap" class="card-image-top" style="position: relative;height: 400px; ">
                     </div>
 
                     <div class="card-body p-3 ">
                         <div class="d-flex flex-row">
-                            <i class="fa-2x mx-3 fas fa-home" style="padding: 5px; border: black solid 1px"></i>
-                            <p>280 Wellesley St. E., Toronto, Ontario, M4X1G7</p>
+                            <i class="fa-2x mx-3 fas fa-location-arrow" style="padding: 5px; border: black solid 1px"></i>
+                            <p style="margin-bottom: 0;">280 Wellesley St. E., Toronto, Ontario, M4X1G7</p>
                         </div>
                         <div class="d-flex flex-row">
                             <i class="fa-2x mx-3 fas fa-envelope" style="padding: 5px; border: black solid 1px"></i>
-                            <p>jayk.patel@mail.utoronto.ca</p>
+                            <a href="mailto:jayk.patel@mail.utoronto.ca">jayk.patel@mail.utoronto.ca</a>
                         </div>
                         <div class="d-flex flex-row">
                             <i class="fa-2x mx-3 fas fa-phone" style="padding: 5px; border: black solid 1px"></i>
                             <p>+1 647-878-5411</p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
 
-        <div class="w3-black mt-3">
+        <div class="w3-black mt-3 pt-4">
             <div class="d-flex justify-content-center ">
-                <i class="fa-3x fab fa-twitter-square" style="padding: 5px; border: black solid 1px"></i>
-                <i class="fa-3x fab fa-google-plus-square" style="padding: 5px; border: black solid 1px"></i>
-                <i class="fa-3x fab fa-facebook" style="padding: 5px; border: black solid 1px"></i>
-                <i class="fa-3x fab fa-instagram" style="padding: 5px; border: black solid 1px"></i>
-                <i class="fa-3x fab fa-github" style="padding: 5px; border: black solid 1px"></i>
-                <a href="#"><i  class="fa-3x fab fa-linkedin" style="padding: 5px; border: black solid 1px"></i></a>
+                <a href="https://twitter.com/Jay2JayKP"><i class="fa-3x fab fa-twitter-square" style="padding: 5px; border: black solid 1px"></i></a>
+                <a href="https://google.com/+JayPatelIN"><i class="fa-3x fab fa-google-plus-square" style="padding: 5px; border: black solid 1px"></i></a>
+                <a href="https://www.facebook.com/jay2jaykp"><i class="fa-3x fab fa-facebook" style="padding: 5px; border: black solid 1px"></i></a>
+                <a href="https://www.instagram.com/jay2jaykp/"><i class="fa-3x fab fa-instagram" style="padding: 5px; border: black solid 1px"></i></a>
+                <a href="https://github.com/jay2jaykp"><i class="fa-3x fab fa-github" style="padding: 5px; border: black solid 1px"></i></a>
+                <a href="https://www.linkedin.com/in/jay2jaykp/"></a><a href="#"><i  class="fa-3x fab fa-linkedin" style="padding: 5px; border: black solid 1px"></i></a>
             </div>
         </div>
         <!--javascripts at the end of the webpage content--> 
+        <script>
+            function initMap() {
+                var center1 = {lat: 43.664764, lng:  -79.367940};
+                var map1 = new google.maps.Map(document.getElementById('myMap'), {
+                    zoom: 18,
+                    center: center1
+                }); 
+                var marker1 = new google.maps.Marker({
+                    position: center1,
+                    map: map1
+                });
+            }
+        </script>
+
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLxgS4ojEJnlcJeQPwLbAW-vpTJ9VaIN8&callback=initMap"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="javascript.js"></script>
     </body>
 </html>

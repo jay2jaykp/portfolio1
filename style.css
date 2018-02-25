@@ -1,38 +1,58 @@
 html, body {
     height: 100%;
-    margin: 0;
 }
+
 * {
     font-family: 'Raleway', sans-serif !important;
+}
 }
 div {
     margin: 0;
     padding: 0;
 }
+nav {
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
 
 #headerImage {
-    background-image: url(images/headerImage.JPG);
-    height: 100%;
-    opacity: 0.5;
-    background-blend-mode: darken;
+    background-image: url(images/DSCN8859.JPG);
+    height: 100%;   
 }
 
 #service {
-    background-image: url(images/servce.jpg);
+    background-image: url(images/sevices.jpg);
 }
 
 #headerImage, #service {
     background-attachment: fixed;
-    background-position: center;
+    background-position: center 0px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#headerContent {
+    position: relative;
+}
+
+#headerContent > div {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    max-width: 500px;
+    padding: 2px;
+    color: papayawhip;
+    text-align: right;
+}
 
 /*changing the hover effect of bootstrap*/
 a:hover {
     color: inherit !important;
 }
+
 .nav-item > a:hover {
     color: inherit !important;
     text-decoration: line-through !important;
@@ -43,6 +63,7 @@ a:hover {
     height: 6px;
     position: relative;
 }
+
 #progressBar > span {
     background-color: black;
     color: white;
